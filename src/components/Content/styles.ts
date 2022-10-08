@@ -4,6 +4,7 @@ export const Wrapper = styled("div", {
   m: "$space$3",
   height: "100%",
   display: "flex",
+  flexDirection: "column",
 });
 export const Container = styled.withConfig({
   componentId: "Content",
