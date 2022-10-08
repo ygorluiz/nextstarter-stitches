@@ -1,4 +1,4 @@
-import { styled } from "@root/config";
+import { darkTheme, styled } from "@root/config";
 
 export const Wrapper = styled("main", {
   my: "$space$2",
@@ -28,7 +28,7 @@ export const Wrapper = styled("main", {
     top: 0,
     opacity: 0.2,
     filter: "invert(1)",
-    "@darkTheme": {
+    [`.${darkTheme} &`]: {
       filter: "unset",
     },
   },
