@@ -3,10 +3,10 @@ const defaultSEOConfig = {
   title: "nextstarter-stitches",
   titleTemplate: "%s | nextstarter-stitches",
   defaultTitle: "nextstarter-stitches",
-  description: "Next.js + chakra-ui + TypeScript template",
-  canonical: "https://nextstarter-stitches.sznm.dev",
+  description: "Next.js + Stitches + TypeScript template",
+  canonical: "https://boilerplate.ygorluiz.dev/",
   openGraph: {
-    url: "https://nextstarter-stitches.sznm.dev",
+    url: "https://boilerplate.ygorluiz.dev/",
     title: "nextstarter-stitches",
     description: "Next.js + Stitches + TypeScript template",
     images: [
