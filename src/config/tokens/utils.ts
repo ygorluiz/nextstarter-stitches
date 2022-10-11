@@ -1,4 +1,4 @@
-import type { ScaleValue } from "@ygorluiz/styles";
+import type { ScaleValue } from "@stitches/react";
 
 const utils = {
   p: (value: ScaleValue<"padding"> | string | number) => ({

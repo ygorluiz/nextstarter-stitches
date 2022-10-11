@@ -1,5 +1,5 @@
-import { createStitches } from "@ygorluiz/styles";
-import type { CSS as StitchesCSS } from "@ygorluiz/styles";
+import { createStitches } from "@stitches/react";
+import type { CSS as StitchesCSS } from "@stitches/react";
 
 import { Providers } from "../components/Provider";
 
@@ -50,7 +50,7 @@ const {
 const darkTheme = createTheme("dark-theme", themes.dark);
 
 export type CSS = StitchesCSS<typeof config>;
-export type { VariantProps } from "@ygorluiz/styles";
+export type { VariantProps } from "@stitches/react";
 
 export {
   config,

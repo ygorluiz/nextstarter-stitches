@@ -4,8 +4,8 @@ specifiers:
   '@commitlint/config-conventional': ^17.1.0
   '@commitlint/cz-commitlint': ^17.1.2
   '@radix-ui/colors': ^0.1.8
+  '@stitches/react': ^1.2.8
   '@types/react': ^18.0.21
-  '@ygorluiz/styles': ^1.2.15
   commitizen: ^4.2.5
   commitlint: ^17.1.2
   cross-env: ^7.0.3
@@ -20,6 +20,7 @@ specifiers:
   next-seo: ^5.5.0
   next-sitemap: ^3.1.22
   next-themes: ^0.2.1
+  nextstarter-stitches: 'link:'
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -29,12 +30,13 @@ specifiers:
 
 dependencies:
   '@radix-ui/colors': 0.1.8
-  '@ygorluiz/styles': 1.2.15_react@18.2.0
+  '@stitches/react': 1.2.8_react@18.2.0
   framer-motion: 7.5.3_biqbaboplfbrettd7655fr4n2y
   next: 12.3.1_biqbaboplfbrettd7655fr4n2y
   next-pwa: 5.6.0_next@12.3.1
   next-seo: 5.5.0_azq6kxkn3od7qdylwkyksrwopy
   next-themes: 0.2.1_azq6kxkn3od7qdylwkyksrwopy
+  nextstarter-stitches: 'link:'
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.4.0_react@18.2.0
@@ -1759,6 +1761,14 @@ packages:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
     dev: true
 
+  /@stitches/react/1.2.8_react@18.2.0:
+    resolution: {integrity: sha512-9g9dWI4gsSVe8bNLlb+lMkBYsnIKCZTmvqvDG+Avnn69XfmHZKiaMrx7cgTaddq7aTPPmXiTsbFcUy0xgI4+wA==}
+    peerDependencies:
+      react: '>= 16.3.0'
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /@surma/rollup-plugin-off-main-thread/2.2.3:
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
     dependencies:
@@ -1982,14 +1992,6 @@ packages:
       '@typescript-eslint/types': 5.39.0
       eslint-visitor-keys: 3.3.0
     dev: true
-
-  /@ygorluiz/styles/1.2.15_react@18.2.0:
-    resolution: {integrity: sha512-0B5Y3Y8Oae6XuGun2MupHBPamN2xlef6tQyzOyCSlY5WFK0KXqXomBQxfR25zRrnoPTWEt3cDxmXy9Evcti9UQ==}
-    peerDependencies:
-      react: '>= 16.3.0'
-    dependencies:
-      react: 18.2.0
-    dev: false
 
   /JSONStream/1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
